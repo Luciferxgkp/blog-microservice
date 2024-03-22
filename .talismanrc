@@ -1,0 +1,22 @@
+fileignoreconfig:
+- filename: client/public/index.html
+  checksum: d271c38b0f8efe87c5dd96b2006763dd96ecd9e753804ed1bf155b496fa63b29
+- filename: moderation/yarn.lock
+  checksum: c460ffd2744c91a78c9974c9b7aa2c964e87e0fc08884f6ae1475b89f7ff6491
+- filename: event-bus/yarn.lock
+  checksum: 0346203b1e3ef343afdde4079ec37e28904ae1a3a0b37bf5c08023e172a1c7fa
+- filename: comments/yarn.lock
+  checksum: 4eaf4f0d06ea9ef7468f950c57ad2886e88c88f4e2829732c670cb722889947b
+- filename: query/yarn.lock
+  checksum: e6386053f4611e9483b42b3a92c6c88b36ee5b2d0a45c1c86204eea3b46d6c4e
+- filename: posts/yarn.lock
+  checksum: 50f993ee15a755067dae6ac4e08fae1a25e83d75e9badcaae525b4c5bfaaf59b
+- filename: client/yarn.lock
+  checksum: 12d7941ff94b887f6f5276d7976d8bffc95e28a825c0889fd365b011449f0687
+- filename: client/package-lock.json
+  checksum: f1a02705f10b4796b278b2b4fefbb6e9124a574e4d86f5fe911ff998099d9df9
+- filename: client/src/CommentList.js
+  checksum: d55b1343603686066f9a12efb4049c5384e31326e80b719a8806d21381b38db7
+- filename: client/src/PostList.js
+  checksum: 0d95b297039f03517075e427719b45179710bb354a42cb4b6cd58065d30f58ad
+version: ""
