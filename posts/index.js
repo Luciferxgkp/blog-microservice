@@ -40,5 +40,5 @@ app.post("/events", (req, res) => {
   res.send({});
 });
 app.listen(4000, () => {
-  console.log("Server is working on port after removing event bus :4000");
+  console.log("Server is working on port : 4000");
 });
