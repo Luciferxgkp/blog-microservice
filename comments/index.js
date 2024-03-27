@@ -11,6 +11,10 @@ app.use(cors());
 
 const commentsByPostId = {};
 
+app.get("/comments", (req, res) => {
+  res.send(commentsByPostId);
+});
+
 app.get("/posts/:id/comments", (req, res) => {
   const comments = commentsByPostId[req.params.id] || [];
 
@@ -33,7 +37,7 @@ app.post("/posts/:id/comments", async (req, res) => {
   commentsByPostId[req.params.id] = comments;
 
   await axios
-    .post("http://levent-bus-srv:4005/events", {
+    .post("http://event-bus-srv:4005/events", {
       type: "CommentCreated",
       data: {
         id: commentId,
